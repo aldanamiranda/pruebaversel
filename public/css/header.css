@@ -1,0 +1,95 @@
+.header{
+    
+    
+    background-color: blueviolet;
+    display: flex;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-sizing:border-box;
+}
+.logo{  
+    display: flex}
+
+.topnav {
+    position:fixed;
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+padding: 10px;
+    margin: auto;
+margin-top: 30px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   background-color:rgb(0, 0, 0);
+   width: 80%;
+}
+
+
+.menu-label{
+    order: -1;
+   }
+.menu a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+}
+.menu-icon{
+    width: 3em;
+    height: 3em;
+    padding: 15px;
+    display: flex;
+transition: all 0.4s;
+}
+
+.menu-icon:hover{
+    background-color:rgb(32, 39, 58);
+}
+
+.menu-icon:focus{
+    transform: rotate(-90deg)
+}
+
+
+
+#menu-toggle:checked + 
+.menu{
+display: flex;
+}
+
+.user-icon{
+    display: flex;
+    width: 3em;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+.user-icon:hover{
+    width: 3.2em;
+}
+.user-icon:active{
+width: 4em;
+}
+
+#menu-toggle,
+.menu-label{
+  display: none;
+  transition: 1s;
+  }
+
+  #menu-toggle:focus{
+    transform: rotate(-90deg)}

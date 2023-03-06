@@ -1,0 +1,59 @@
+.buttonRegisterInLogin{
+    background-color: rgb(59, 80, 70);
+    margin-top: 10em;
+    margin-bottom: 1em;
+    padding: 0.7em;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5em;
+}
+
+.buttonRegisterInLogin:hover{
+  background-color: lightslategray;
+}
+
+.buttonRegisterInLogin a{
+    color: var(--primary-color);
+}
+
+.form-login{
+  text-align: center;
+  line-height: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 80px;
+
+}
+
+
+.imgUser{
+  width: 100px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.buttonLogin {
+    display: block;
+    padding: 0.7em;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid rgba(31, 36, 31, 0.521);
+    border-radius: 0.5em
+  }
+
+  .buttonLogin:hover{
+    background-color: lightskyblue
+  }
+
+  footer{
+   margin: 0 auto;
+    padding: 0;
+       
+  }
+
+  

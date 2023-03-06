@@ -1,0 +1,41 @@
+main{
+    margin-top: 10em;
+
+}
+.form-register{
+     list-style: none;
+       width: 300px;
+    justify-content: center;
+    text-align:center;
+    margin-bottom: 80px;
+}
+.form-register label{
+    display: block;
+    line-height: 1.5em;
+}
+
+.buttonRegister{
+    
+        display: block;
+        padding: 0.7em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid rgba(36, 31, 31, 0.521);
+        border-radius: 0.5em
+      }
+    
+      .buttonRegister:hover{
+        background-color: aquamarine;
+      }
+
+footer{
+   
+bottom: 0px;
+    width:98%;
+    margin: 0;
+    padding: 0;
+       
+  }
