@@ -1,13 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.css">
-    <title>prueba</title>
+    <title>Index</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+    <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/mediaqueries.css">
+
+
 </head>
+
 <body>
-    <H1>SOY UNA PÁGINA DE PRUEBA PARA VERSEL</H1>
+    <header class="header">
+        <nav class="topnav">
+            <a href="index.html"><img class="logo" src="public/images/logo.png" alt="logo"></a>
+            <label class="menu-label" for="menu-toggle"><img class="menu-icon" src="public/images/menu.png" alt="menu hamburguesa"></label>
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="menu">
+                
+                <li><a id=inicio href="index.html">Inicio</a></li>
+                <li><a href="#containerModels">Modelos web</a></li>
+                <li><a href="#contact">Presupuesto</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li class="menu-about"><a href="#about">Conocé más</a></li>
+            </ul>
+            <a href="views/login.html"><img class="user-icon" src="public/images/usuario.png" alt="icono de usuario"></a>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="presentation">
+            <div class="containertitle">
+                <h1 class="title">Diseño y Desarrollo de Sitios Web</h1>
+                <a class="about" href="#about">Conocé más</a>
+            </div>
+            <div class="carrusel">
+                <img src="public/images/carrusel.jpg" alt="carrusel">
+            </div>
+        </section>
+
+        <section class="containerServices">
+            <h2 class="titleServices">Servicios</h2>
+            <div class="services">
+                <article class="service">
+                    <img src="public/images/servicio1.png" alt="Servicio1">
+                    <h3 class="subtitleServices">Diseño y desarrollo web</h3>
+                    <h4>Tiendas online, sitios institucionales, web de artistas, corporativos, etc.</h4>
+                </article>
+                <article class="service">
+                    <img src="public/images/servicio2.png" alt="Servicio2">
+                    <h3 class="subtitleServices">Páginas responsivas</h3>
+                    <h4>Diseños adaptables a todos los dispositivos: celulares, tablets y computadoras.</h4>
+                </article>
+                <article class="service">
+                    <img src="public/images/servicio3.png" alt="Servicio3">
+                    <h3 class="subtitleServices">Sitios autoadministrables</h3>
+                    <h4>Los usuarios pueden modificar y agregar su propio contenido</h4>
+                </article>
+            </div>
+        </section>
+
+        <section id="containerModels" class="models">
+            <h2 class="titleModels">Modelos web</h2>
+            <div class="models">
+                <a href="#" class="model">
+                    <img src="public/images/modelo1.png" alt="modelo1">
+                    <h3>Modelo 1</h3>
+                    <h4>Descripción</h4>
+                </a>
+                <a href="#" class="model">
+                    <img src="public/images/modelo2.png" alt="modelo2">
+                    <h3>Modelo 2</h3>
+                    <h4>Descripción.</h4>
+                </a>
+                <a href="#" class="model">
+                    <img src="public/images/modelo3.png" alt="modelo3">
+                    <h3>Modelo 3</h3>
+                    <h4>Descripción</h4>
+                </a>
+                <a href="#" class="model">
+                    <img src="public/images/modelo4.png" alt="modelo4">
+                    <h3>Modelo 4</h3>
+                    <h4>Descripción</h4>
+                </a>
+                <a href="#" class="model">
+                    <img src="public/images/modelo5.png" alt="modelo5">
+                    <h3>Modelo 5</h3>
+                    <h4>Descripción</h4>
+                </a>
+                <a href="#" class="model">
+                    <img src="public/images/modelo6.png" alt="modelo6">
+                    <h3>Modelo 6</h3>
+                    <h4>Descripción</h4>
+                </a>
+                </ul>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <H2 class="titleAbout"> Diseño y desarrollo de sitios web</H2>
+            <P> La página web es el escaparate de tu empresa en Internet, por esto es tan importante su diseño y cómo
+                muestre los productos y servicios a los clientes potenciales.</p>
+
+                <p> ¿Qué imagen querés proyectar sobre tu empresa a tus futuros clientes? Si vendés profesionalidad tenés
+                que transmitirla, de manera que la web debe estar cuidada en diseño.</p>
+
+
+                Además de la importancia de la estética, a través del diseño web conseguimos que una página sea intuitiva y
+                sencilla a la hora de navegar o complicada y compleja.
+                Un cliente con multitud de opciones, debe sentirse cómodo en nuestra página y encontrar lo que busca a la mayor brevedad posible.</p>
+
+            <p> Soy creadora de sitios web con diseños personalizados. Mi trabajo es freelance, preparo una propuesta
+                detallada de acuerdo a tus necesidades y una vez acordado, definimos los plazos del proyecto. Presento tres
+                revisiones durante el proceso para asegurarme que quedes totalmente conforme y a gusto con el trabajo
+                realizado.</p>
+                Contactate para recibir más información. </P>
+        </section>
+
+        <section id="contact" class="contact">
+            <form class="formContact" action="views/contact" method="post">
+                <h3 class="titleForm">Contactate</h3>
+                <ul>
+                    <li><label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </li>
+
+                    <li><label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email">
+                    </li>
+
+                    <li><label for="celular">Cel:</label>
+                        <input type="number" name="phone" id="phone">
+                    </li>
+
+                    <li><label>Modelo de referencia:</label>
+                        <select name="model">
+                            <option value="">Ninguno</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">Otro</option>
+                        </select>
+                        <a class="verModelos" href="#containerModels">Ver modelos</a>
+                  
+                    </li>
+                  
+                    <li> <input type="checkbox" name="presupuesto">
+                        <label for="presupuesto">Solicito presupuesto</label>
+                    </li>
+                </ul>
+                <button class="buttonContact" type="submit">Enviar</button>
+            </form>
+
+
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <img class="logoFooter" src="public/images/logo.png" alt="Logo">
+        </div>
+        <div class="listFooter">
+            <ul>
+                <li><img class="iconFooter" src="public/images/telefono-movil.png" alt="">1128073192</li>
+                <li><img class="iconFooter" src="public/images/mail.png" alt="">aldanamiranda8@gmail.com</li>
+                <li><img class="iconFooter" src="public/images/maps.png" alt="">Bs. As.- Argentina</li>
+                <li><img class="iconFooter" src="public/images/hour.png" alt="">Lun. a Vie. 9 a 20 hs.</li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+
+
+        <div class="copyright">
+            Copyright 2023 © Todos los derechos reservados | Aldana Victoria Miranda | Diseño Web Argentina
+        </div>
+        <p></p>
+
+    </footer>
+
+    <a href="#"><img class="logo-whatsapp" src="public/images/wsp.png" alt="logo-whatsapp"></a>
 </body>
+
 </html>
