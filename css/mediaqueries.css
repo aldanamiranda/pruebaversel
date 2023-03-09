@@ -123,7 +123,19 @@
 
 @media(max-width:480px) {
 
-  
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+  h3{
+    font-size: 16px;
+  }
+
+  h4{
+    font-size: 12px;
+  }
 .logo{
   
     width: 100%;
@@ -176,7 +188,7 @@
 
     .title {
         margin-top: 3em;
-        font-size: 20px;
+        font-size: 23px;
         margin-bottom: 0em;
     }
 
@@ -204,6 +216,17 @@
 
 }
 
+@media(max-width:420px){
+
+    .logo{
+        width: 100px;
+    }
+    .title {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+}
 
 @media(min-width:992px) {
 
