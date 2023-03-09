@@ -1,143 +1,125 @@
-@media(max-width:992px) {
+@media (max-width: 992px) {
+  .topnav {
+    justify-content: space-between;
+    width: 100%;
+  }
 
+  .menu-icon {
+    background-color: var(--primary-color);
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+  }
 
-    .topnav {
-        justify-content: space-between;
-        width: 100%;
+  .menu {
+    background-color: black;
+    flex-direction: column;
+    margin-top: 31.2em;
+    border: 2px solid var(--primary-color);
+    border-radius: 0px 0px 0.6em 0.6em;
+    border-top: 0px;
+    gap: 20px;
+    z-index: 2;
+    position: absolute;
+    width: 30%;
+    display: flex;
+    padding: 1em;
+    display: none;
+  }
 
-    }
+  .menu li {
+    padding: 0.5em;
+    width: 100%;
+    display: flex;
+  }
 
-    .menu-icon {
+  .menu a {
+    background-color: rgb(17, 29, 80);
+    width: 100%;
+    height: 2.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    transition: 0.4s;
+  }
 
-        background-color: var(--primary-color);
-        border: 2px solid white;
-        border-radius: 5px;
-        margin: 5px;
-        
+  .menu a:hover {
+    color: black;
+    background-color: var(--primary-color);
+  }
 
-    }
+  .menu-label {
+    display: flex;
+    cursor: pointer;
+  }
 
-    .menu {
-        background-color: black;
-        flex-direction: column;
-        margin-top: 31.2em;
-        border: 2px solid var(--primary-color);
-        border-radius: 0px 0px 0.6em 0.6em;
-        border-top: 0px;
-        gap: 20px;
-        z-index: 2;
-        position: absolute;
-        width: 30%;
-        display: flex;
-        padding: 1em;
-        display: none
-    }
-
-    .menu li {
-
-        padding: 0.5em;
-        width: 100%;
-        display: flex;
-
-    }
-
-    .menu a {
-        background-color: rgb(17, 29, 80);
-        width: 100%;
-        height: 2.2em;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 10px;
-        transition: 0.4s;
-    }
-    
-    .menu a:hover{
-        color: black;
-        background-color: var(--primary-color)
-    }
-
-    .menu-label {
-        display: flex;
-        cursor: pointer;
-    }
-
-    .logoFooter {
-        display: none;
-    }
-    .buttonRegisterInLogin{
-        margin-top: 5em;
-    }
-
+  .logoFooter {
+    display: none;
+  }
+  .buttonRegisterInLogin {
+    margin-top: 5em;
+  }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
+  .logo {
+    width: 80%;
+    min-width: 320px;
+  }
 
+  .menu {
+    width: 35%;
+  }
 
-    .logo {
-        width: 80%;
-        min-width: 320px
-    }
+  .presentation {
+    display: block;
+  }
 
-    .menu {
-        width: 35%
-    }
+  .title {
+    font-size: 30px;
+  }
 
-    .presentation {
-        display: block;
-    }
+  .services {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
 
-    .title {
-        font-size: 30px;
-    }
+  .service {
+    width: 400px;
+  }
 
-    .services {
-        flex-direction: column;
-        align-items: center;
-        gap: 2em;
-    }
+  .logoFooter {
+    width: 75%;
+    padding: 10px;
+  }
 
-    .service {
-        width: 400px;
-    }
+  .listFooter {
+    margin: 0;
+  }
 
-    .logoFooter {
-        width: 75%;
-        padding: 10px
-    }
-
-    .listFooter{
-     margin: 0;
-    }
-
-    .listFooter li {
-        font-size: 13px;
-        width: 45%;
-      
-    }
-
-      
-
-
+  .listFooter li {
+    font-size: 13px;
+    width: 45%;
+  }
 }
 
-@media(max-width:480px) {
-
-    h1{
-        font-size: 20px;
-    }
-    h2{
-        font-size: 18px;
-    }
-  h3{
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
     font-size: 16px;
   }
 
-  h4{
+  h4 {
     font-size: 12px;
   }
-.logo{
-  
+  .logo {
     width: 100%;
     height: 70px;
     margin-top: 30px;
@@ -145,100 +127,137 @@
     margin-right: 7px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .topnav {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 70px;
+  }
 
-   
-}
-    .topnav {
-        flex-wrap: wrap;
-        display: flex;
-        margin-top: 70px;
-    
-    }
+  .menu-label {
+    order: 0;
+  }
 
+  .menu {
+    margin-top: 37.5em;
+    width: 87%;
+  }
 
-    .menu-label {
-        order: 0;
-       
+  .menu-icon {
+    display: inline;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 15px;
+    padding: 7px;
+  }
 
-    }
+  .user-icon {
+    display: inline;
+    display: flex;
+  }
 
-    .menu {
-        margin-top: 37.5em;
-        width: 87%;
-        
-    }
+  .buttonRegister {
+    margin-top: 500px;
+  }
 
-    .menu-icon {
-        display: inline;
-        display: flex;
-        width: 45px;
-        height: 45px;
-        margin: 15px;
-        padding: 7px;
-    }
+  .title {
+    margin-top: 3em;
+    font-size: 23px;
+    margin-bottom: 0em;
+  }
 
-    .user-icon{
-        display: inline;
-        display: flex;
-    }
-
-    .buttonRegister{
-        margin-top: 500px;
-    }
-
-    .title {
-        margin-top: 3em;
-        font-size: 23px;
-        margin-bottom: 0em;
-    }
-
-    .about {
-        display: none;
-    }
-
-    .services {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .service {
-        width: 200px
-    }
-
-    .listFooter ul {
-        padding: 15px;
-    }
-
-    .listFooter li {
-        flex-direction: column;
-    }
-
-
-}
-
-@media(max-width:420px){
-
-    .logo{
-        width: 100px;
-    }
-    .title {
-        font-size: 18px;
-        padding: 10px;
-    }
-
-}
-
-@media(min-width:992px) {
-
-.topnav{
-    position: absolute;
-        display: flex;
-        width: 100%;
-}
-    
-
-   .menu a#inicio{
+  .about {
     display: none;
-   }
+  }
 
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    width: 200px;
+  }
+
+  .listFooter ul {
+    padding: 15px;
+  }
+
+  .listFooter li {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    width: 100px;
+  }
+  .title {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  form {
+    width: 14em;
+    justify-content: center;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 10px solid #adffff;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  form li {
+    margin-top: 1em;
+    margin-right: 0 auto;
+    list-style: none;
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  form label {
+    text-align: left;
+  }
+
+  .form-register {
+    width: 10em;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+  }
+  .form-register li {
+    margin-top: 1em;
+    margin-right: 0 auto;
+    list-style: none;
+    text-align: left;
+    padding-left: 1em;
+  }
+
+
+  .form-login {
+    width: 10em;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+  }
+  .form-login li {
+    margin-top: 1em;
+    margin-right: 0 auto;
+    list-style: none;
+    text-align: left;
+    padding-left: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .topnav {
+    position: absolute;
+    display: flex;
+    width: 100%;
+  }
+
+  .menu a#inicio {
+    display: none;
+  }
 }
